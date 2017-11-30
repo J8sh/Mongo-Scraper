@@ -56,9 +56,11 @@ var scrape = function() {
         articles.push(dataToAdd);
       }
     });
-    return articles;
+    return articles;  
   });
 };
+
+
 
 // Export the function, so other files in our backend can use it
 module.exports = scrape;
